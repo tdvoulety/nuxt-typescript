@@ -1,0 +1,17 @@
+{
+  "routes": {
+    "\/": "\/",
+    "\/search": "\/hledanie",
+    "\/login": "\/prihlasenie"
+  },
+  "global": {
+    "yes": "Áno",
+    "no": "Nie"
+  },
+  "header": {
+    "registration": {
+      "title": "Registrácia",
+      "url": "\/registracia"
+    }
+  }
+}

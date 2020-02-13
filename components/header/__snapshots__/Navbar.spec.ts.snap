@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar renders to a snapshot 1`] = `
+<div class="side-navbar__wrap">
+  <div id="side-navbar" class="navbar side-navbar navbar-expand">
+    <ul class="side-navbar__list">
+      <li><a href="#header.registration.url#" id="side-navbar__registration" class="side-navbar__action text-info">
+          #header.registration.title#
+        </a></li>
+      <li class="no-padding">
+        <LanguageSwitcher-stub></LanguageSwitcher-stub>
+      </li>
+      <li class="side-navbar__divider"></li>
+    </ul>
+  </div>
+  <div class="side-navbar__backdrop" style="display:none;"></div>
+</div>
+`;

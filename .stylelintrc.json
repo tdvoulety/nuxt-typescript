@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "string-quotes": "single",
+    "selector-attribute-quotes": "always",
+    "color-hex-length": "short",
+    "color-hex-case": "lower",
+    "indentation": 2,
+    "number-leading-zero": "never",
+    "max-line-length": 150,
+    "declaration-no-important": true,
+    "max-empty-lines": 2
+  },
+  "ignoreFiles": ["/test/**", "**/__snapshots__/**"]
+}

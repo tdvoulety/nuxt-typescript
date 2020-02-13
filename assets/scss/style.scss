@@ -1,0 +1,64 @@
+@import 'bootstrap';
+@import 'lazyload';
+
+@font-face {
+  font-display: block;
+  font-family: 'Source Sans Pro';
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  src: url('~assets/fonts/source_sans_pro_init.woff2') format('woff2'), url('~assets/fonts/source_sans_pro_init.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 300;
+  src: url('~assets/fonts/source_sans_pro_light.woff2') format('woff2'), url('~assets/fonts/source_sans_pro_light.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  src: url('~assets/fonts/source_sans_pro_regular.woff2') format('woff2'), url('~assets/fonts/source_sans_pro_regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 600;
+  src: url('~assets/fonts/source_sans_pro_semi_bold.woff2') format('woff2'), url('~assets/fonts/source_sans_pro_semi_bold.woff') format('woff');
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  background: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+img, iframe {
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}

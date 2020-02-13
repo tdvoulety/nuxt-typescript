@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown renders to a snapshot 1`] = `
+<div onClick="function() {
+        return fn.apply(this, arguments);
+      }" class="dropdown"><button type="button" id="dropdown-25" class="dropdown__toggle"><span id="dropdown-25__text">text</span></button>
+  <ul role="menu" tabindex="-1" class="dropdown__menu">
+    <li><button type="button" class="dropdown__item">
+        Deutsch
+      </button></li>
+    <li><button type="button" class="dropdown__item">
+        English
+      </button></li>
+    <li><button type="button" class="dropdown__item">
+        Français
+      </button></li>
+  </ul>
+</div>
+`;

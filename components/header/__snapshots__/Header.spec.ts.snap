@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders to a snapshot 1`] = `
+<header class="app-header">
+  <b-container-stub tag="div">
+    <NavBar-stub></NavBar-stub> <button type="button" class="app-header__navbar-toggler"><img data-src="" alt="" title="" class="lazyload"></button> <a href="#routes./home#" class="app-header__logo"><img data-src="" alt="" title="" class="lazyload"></a>
+  </b-container-stub>
+</header>
+`;
