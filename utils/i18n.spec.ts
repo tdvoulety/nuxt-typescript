@@ -3,21 +3,19 @@ import { getLocaleFromDomain } from '@/utils/i18n'
 
 describe('i18n utils', () => {
   it('getLocaleFromDomain', () => {
-    const domain = 'placestoreshop.cz'
-    const defaultLocale = 'cs'
+    const domain = 'test.com'
+    const defaultLocale = 'en'
     const locales = [
       {
-        code: 'cs',
-        name: 'Česky',
-        domain: 'placestoreshop.cz',
+        code: 'en',
+        name: 'English',
       },
       {
-        code: 'sk',
-        name: 'Slovensky',
-        domain: 'placestoreshop.sk',
+        code: 'de',
+        name: 'German',
       },
     ]
 
-    expect(getLocaleFromDomain(domain, { defaultLocale, locales })).toEqual('cs')
+    expect(getLocaleFromDomain(domain, { defaultLocale, locales })).toEqual('en')
   })
 })

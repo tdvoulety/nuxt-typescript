@@ -1,0 +1,17 @@
+{
+  "routes": {
+    "\/": "\/",
+    "\/search": "\/search",
+    "\/login": "\/search"
+  },
+  "global": {
+    "yes": "Ja",
+    "no": "Nein"
+  },
+  "header": {
+    "registration": {
+      "title": "",
+      "url": "\/"
+    }
+  }
+}

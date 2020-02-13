@@ -22,38 +22,19 @@ describe('router utils', () => {
   describe('getLocalizedRoutes', () => {
     const routes = [{ name: 'index', path: '/' }]
 
-    it('for default locale', () => {
+    it('for locale', () => {
+      const localizedRoutes = [{ name: 'index', path: '/' }, { name: 'index-de', path: '/' }]
       const config = {
         i18n: {
-          defaultLocale: 'cs',
+          defaultLocale: 'en',
           locales: [
             {
-              code: 'cs',
-              name: 'Česky',
-              domain: 'placestoreshop.cz',
-            },
-          ],
-        },
-      }
-
-      expect(getLocalizedRoutes(routes, config)).toEqual(routes)
-    })
-
-    it('for not default locale', () => {
-      const localizedRoutes = [{ name: 'index', path: '/' }, { name: 'index-sk', path: '/' }]
-      const config = {
-        i18n: {
-          defaultLocale: 'cs',
-          locales: [
-            {
-              code: 'cs',
-              name: 'Česky',
-              domain: 'local.placestoreshop.cz',
+              code: 'en',
+              name: 'English',
             },
             {
-              code: 'sk',
-              name: 'Slovensky',
-              domain: 'local.placestoreshop.sk',
+              code: 'de',
+              name: 'German',
             },
           ],
         },

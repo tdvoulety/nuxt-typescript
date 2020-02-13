@@ -1,17 +1,15 @@
 export default {
   baseUrl: process.env.BASE_URL || 'http://localhost:3000',
   i18n: {
-    defaultLocale: 'cs',
+    defaultLocale: 'en',
     locales: [
       {
-        code: 'cs',
-        name: 'Česky',
-        domain: 'local.placestoreshop.cz',
+        code: 'en',
+        name: 'English',
       },
       {
-        code: 'sk',
-        name: 'Slovensky',
-        domain: 'local.placestoreshop.sk',
+        code: 'de',
+        name: 'German',
       },
     ],
   },

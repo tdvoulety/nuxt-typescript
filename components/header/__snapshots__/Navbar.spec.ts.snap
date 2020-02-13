@@ -7,9 +7,6 @@ exports[`NavBar renders to a snapshot 1`] = `
       <li><a href="#header.registration.url#" id="side-navbar__registration" class="side-navbar__action text-info">
           #header.registration.title#
         </a></li>
-      <li class="no-padding">
-        <LanguageSwitcher-stub></LanguageSwitcher-stub>
-      </li>
       <li class="side-navbar__divider"></li>
     </ul>
   </div>

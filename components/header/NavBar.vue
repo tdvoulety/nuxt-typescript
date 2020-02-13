@@ -12,10 +12,6 @@
           </a>
         </li>
 
-        <li class="no-padding">
-          <LanguageSwitcher />
-        </li>
-
         <li class="side-navbar__divider"></li>
       </ul>
     </div>
@@ -26,9 +22,6 @@
 
 <script>
 export default {
-  components: {
-    LanguageSwitcher: () => import('@/components/header/LanguageSwitcher'),
-  },
   props: {
     sideNavVisible: {
       type: Boolean,

@@ -6,12 +6,7 @@ export default [
   },
   {
     name: 'search',
-    path: '/hledani',
+    path: '/search',
     component: () => import('@/pages/search').then((m) => m.default || m),
-  },
-  {
-    name: 'login',
-    path: '/prihlaseni',
-    component: () => import('@/pages/login').then((m) => m.default || m),
   },
 ]

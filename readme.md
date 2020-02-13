@@ -21,37 +21,26 @@ Jest is a delightful JavaScript Testing Framework with a focus on simplicity. Vu
 
 ## Development
 
-##### 1) Edit your `hosts` file (MacOS)
-```
-sudo vim /etc/hosts
-```
+##### Create `env.js` file in `/config` folder
 
-##### Add these two lines
-```
-127.0.0.1       local.placestoreshop.cz
-127.0.0.1       local.placestoreshop.sk
-```
-
-##### 2) Create `env.js` file in `/config` folder
-
-##### 3) Install dependencies
+##### Install dependencies
 ```
 $ yarn install
 ```
 
-##### 4) Serve with hot reload at local.placestoreshop.cz:3000
+##### Serve with hot reload at localhost:3000
 ```
 $ yarn dev
 ```
 
 ## Production
 
-##### 1) Install dependencies
+##### Install dependencies
 ```
 $ yarn install
 ```
 
-##### 2) Build for production and launch server
+##### Build for production and launch server
 ```
 $ yarn build
 $ yarn start
